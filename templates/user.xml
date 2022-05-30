@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="fragx" value="import android.os.Bundle&#10;import androidx.fragment.app.Fragment&#10;import android.view.LayoutInflater&#10;import android.view.View&#10;import android.view.ViewGroup&#10;&#10;class HomeFragment : Fragment() {&#10;&#10;    override fun onCreate(savedInstanceState: Bundle?) {&#10;        super.onCreate(savedInstanceState)&#10;        arguments?.let {&#10;&#10;        }&#10;    }&#10;&#10;    override fun onCreateView(&#10;        inflater: LayoutInflater, container: ViewGroup?,&#10;        savedInstanceState: Bundle?&#10;    ): View? {&#10;        // Inflate the layout for this fragment&#10;        return inflater.inflate(R.layout.fragment_home, container, false)&#10;    }&#10;&#10;&#10;}" description="Create a blank fragment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
